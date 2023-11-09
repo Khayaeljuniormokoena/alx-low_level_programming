@@ -5,6 +5,7 @@
  * od a dlistint_t list
  *
  * @head: head of the list
+ * @n: the integer value to be stored in the new node
  * Return: the address of the new element
  */
 
