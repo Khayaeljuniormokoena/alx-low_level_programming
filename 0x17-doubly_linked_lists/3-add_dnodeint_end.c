@@ -5,6 +5,7 @@
  * of a dlistsint_t list
  *
  * @head: head of the list
+ * @n: The integer value to be stored in the new node
  * Return: the adress of the new element
  */
 
@@ -12,6 +13,7 @@ dlistint_t *add_dnodeint_end(dlistint_t **head, const int n)
 {
 	dlistint_t *h;
 	dlistint_t *new;
+
 	new = malloc(sizeof(dlistint_t));
 
 	if (new == NULL)
